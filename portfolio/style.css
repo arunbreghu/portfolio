@@ -1,0 +1,179 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&display=swap');
+
+body{
+    background-color: black;
+    font-family: "Montserrat", sans-serif;
+}
+.navbar-brand {
+    color: aliceblue;
+}
+.navbar-brand:hover{
+    color: red;
+}
+.nav-link{
+    color: aliceblue;
+
+}
+.nav-link:hover{
+    color: red;
+}
+
+.cp h3{
+    color: white;
+    font-size: 24px;
+
+}
+.cp h1{
+    color: white;
+    font-weight: 300;
+    padding-top: 50px;
+    
+}
+.cp h1 span{
+    font-weight: 500;
+    background-image: linear-gradient( rgb(180, 86, 252),rgb(247, 92, 120));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 80px;
+    font-weight: 600;
+}
+.flw h1  {
+    color: white;
+    font-size: 20px;
+}
+.dev p{
+    color: white;
+    font-size: 15px;
+}
+.icon{
+    color: aliceblue;
+}
+.vertical-center{
+    min-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.about-content{
+   color: aliceblue;   
+    width: 100%;
+    height: 60vh;
+    
+}
+.hd{
+    font-size: 50px;
+    font-weight: 600%;
+}
+.nm{
+    font-weight: 150;
+}
+.pad{
+    padding-left: 25%;
+}
+.btn{
+    background-image: linear-gradient( rgb(180, 86, 252,0.5),rgb(225, 73, 60,0.5));
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+
+}
+.btn:hover{
+    /* background-image: linear-gradient( rgb(180, 86, 252,),rgb(225, 73, 60,)); */
+    background-color: blueviolet;
+
+}
+.abt{
+    padding-top: 50px;
+}
+.abt h1{
+    color: white;
+    font-size: 70px;
+    font-weight: 700;
+}
+.abt h2{
+    padding-top: 25px;
+    font-size: 30;
+    font-weight: 500;
+    color: aliceblue;
+}
+
+.abt p{padding-top: 15px;
+    font-size: 15px;
+    color: aliceblue;
+    font-weight: 400;
+}
+.abt table{
+    color: aliceblue;
+}
+.abt span{
+    color: blueviolet;
+}
+.abt span:hover{
+    font-weight: 500;
+    background-image: linear-gradient( rgb(180, 86, 252),rgb(247, 92, 120));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    
+    font-weight: 600;
+}
+.png{padding-top: 15%;
+padding-left: 20%;}
+.formthree {
+    background: #f7f7f7;
+}
+
+.us {
+    padding-top: 150px;
+    padding-bottom: 100px;
+} 
+
+.me {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    
+}
+
+.us .form-control {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    font-size: 13px;
+    border-bottom: 1px solid #d3d3d3;
+    background: transparent;
+    font-weight: 500;
+}
+
+form .btn {
+    border-radius: 3px;
+}
+
+.us form button.btn {
+    margin: 30px auto;
+    display: block;
+    padding: 11px 32px;
+    background: #4285f4;
+    border: 1px solid #4285f4;
+    
+}
+
+
+.us .btn-primary.focus, .us .btn-primary:hover {
+    background-color: transparent;
+    color: #4285f4;
+    border: 1px solid #4285f4 !important;
+}
+.icon a{
+    color: #d3d3d3;
+}
+
+.icon a:hover{
+    color: aquamarine;
+}

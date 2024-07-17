@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="preload"
+      href="Mona-Sans.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <!--Mona-sants font link-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!--Google Font-->
+    <link
+      href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css"
+      rel="stylesheet"
+    />
+    <!--Font Awesome link-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">IamArun B Reghu</a>
+
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#" style="color: red"> About me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">whatsapp</a>
+          </li>
+          </ul>
+    </nav>
+        </div>
+        <div class="container">
+            <div class="row">
+
+                    <div class="col-lg-6">
+            <h1 class="aot">ABOUT ME</h1>
+        </div>
+    </div>
+    </div>
+
+          <div class="text-center  order-last order-lg-first col-lg-12 abt">
+            <h2 class="aot1">ARUN B REGHU</h2>
+            <p class="arun">
+              Hello! I'm <span> ARUN B REGHU </span>a python django developer Student at
+              Mashupstack,Kochi.
+            </p>
+            <p class="text-center">
+              Currently I'm pursuing my Diploma LOGISTICS &amp; COMPUTER
+              OPERATOR AND PROGRAMING ASSISTENT &amp; CIRTIFIDE EATHICAL HACKER
+              &amp; Deep Learning.
+            </p>
+            <p>
+              Here are a few technologies I've been working with and specilized
+            </p>
+            <table class="table table-borderless abt">
+              <tbody>
+                <tr>
+                  <td><span>&gt;</span> Photoshop</td>
+                  <td><span>&gt;</span> CEH</td>
+                  <td><span>&gt;</span> HTML</td>
+                </tr>
+                <tr>
+                  <td><span>&gt;</span>Python</td>
+                  <td><span>&gt;</span>JavaScript</td>
+                  <td><span>&gt;</span>Django</td>
+                </tr>
+              </tbody>
+            </table>
+            <a href="/contact"
+              >
+                <button class="btn btn-primary mt-4">Contact</button>
+              </a
+            >
+          </div>
+          <div
+           
+          <div class="container mt-5">
+            <div class="row text-center">
+              <div class="col-lg-12 flw">
+                <h1>Follow me</h1>
+              </div>
+              <div class="col-lg-12 icon">
+                <a href="#"><i class="fa-brands fa-facebook mr-2"></i></a>
+                <i class="fa-brands fa-instagram mr-2"></i>
+                <i class="fa-brands fa-github mr-2"></i>
+                <i class="fa-brands fa-pinterest mr-2"></i>
+                <i class="fa-brands fa-linkedin mr-2"></i>
+              </div>
+
+              <div class="col-lg-12 dev">
+                <p>this site developed by <span>@arunbreghu</span></p>
+              </div>
+            </div>
+          </div>
+        </ul>
+      </div>
+    </nav>
+  </body>
+</html>
+.aot{
+    font-family: "Montserrat", sans-serif;
+    font-size: 80px;
+    color: white;
+    text-align: center;
+    padding-top: 75px;
+    padding-bottom: 20px;
+    font-weight: 600;
+}
+.aot1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    color: rgb(8, 138, 230);
+    text-align: center;
+    
+    padding-bottom: 20px;
+    font-weight: 400;
+}
+.abt span{
+    color: aqua;
+}
+.arun  span:hover{
+    font-weight: 500;
+    background-image: linear-gradient( rgb(180, 86, 252),rgb(247, 92, 120));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    font-weight: 600;
+}
+.arun{
+    padding-bottom: 20px;
+}
